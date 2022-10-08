@@ -1,6 +1,8 @@
 # A browser extension to improve Elrond Explorer
 
 ![extension waiting approval](https://img.shields.io/badge/Extension-Waiting%20Approval-orange)
+![](https://img.shields.io/badge/Quality-The%20Best%20Extension%20Ever-brightgreen)
+
 
 ## How to install ?
 
