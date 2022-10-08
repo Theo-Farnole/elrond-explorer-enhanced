@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Elrond Explorer Enhanced",
+    "version": "1.0.0",
+    "description": "Add attribute to NFTs",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://*.elrond.com/nfts/*"
+            ]
+        }
+    ]
+}
