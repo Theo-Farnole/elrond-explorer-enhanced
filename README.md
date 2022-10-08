@@ -6,10 +6,10 @@
 
 For the moment, the Chrome extension in in "waiting approval", so you need to install it manually: 
 
-1. Install it
-`npm run build`  
-2. zip /dist
-3. follow this tutorial
+1. Compile the extension
+```npm run build```
+2. Zip /dist into dist.zip
+3. Follow this tutorial
 https://dev.to/ben/how-to-install-chrome-extensions-manually-from-github-1612
 
 ## What is improved ? 
