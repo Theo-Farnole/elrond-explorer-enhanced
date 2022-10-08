@@ -4,3 +4,5 @@
 
 ## What is improved ? 
 - add attribute in /nfts/ page
+
+![](https://github.com/Theo-Farnole/elrond-explorer-enhanced/blob/main/images/explorer_001.png)
