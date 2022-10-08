@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "js": [
-                "content.js"
+                "index.js"
             ],
             "matches": [
                 "https://*.elrond.com/nfts/*"
