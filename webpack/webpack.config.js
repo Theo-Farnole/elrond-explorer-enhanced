@@ -1,5 +1,7 @@
 const path = require('path');
+const webpack = require('webpack');
 const CopyPlugin = require('copy-webpack-plugin');
+
 module.exports = {
     mode: "production",
     entry: {
@@ -11,6 +13,9 @@ module.exports = {
     },
     resolve: {
         extensions: [".ts", ".js"],
+        fallback: {
+            "buffer": require.resolve("buffer")
+        }
     },
     module: {
         rules: [
@@ -24,6 +29,11 @@ module.exports = {
     plugins: [
         new CopyPlugin({
             patterns: [{ from: ".", to: ".", context: "public" }]
+        }),
+        // Work around for Buffer is undefined:
+        // https://github.com/webpack/changelog-v5/issues/10
+        new webpack.ProvidePlugin({
+            Buffer: ['buffer', 'Buffer'],
         }),
     ],
 };
