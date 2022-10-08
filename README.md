@@ -2,7 +2,17 @@
 
 ![extension waiting approval](https://img.shields.io/badge/Extension-Waiting%20Approval-orange])
 
+## How to install ?
+
+For the moment, the Chrome extension in in "waiting approval", so you need to install it manually: 
+
+1. Install it
+`npm run build`  
+2. zip /dist
+3. follow this tutorial
+https://dev.to/ben/how-to-install-chrome-extensions-manually-from-github-1612
+
 ## What is improved ? 
-- add attribute in /nfts/ page
+- Add attributes in /nfts/ page
 
 ![](https://github.com/Theo-Farnole/elrond-explorer-enhanced/blob/main/images/explorer_001.png)
