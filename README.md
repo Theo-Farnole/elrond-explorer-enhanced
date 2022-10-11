@@ -1,12 +1,16 @@
 # A browser extension to improve Elrond Explorer
 
-![extension waiting approval](https://img.shields.io/badge/Extension-Waiting%20Approval-orange)
+![extension waiting approval](https://img.shields.io/badge/Extension-Approved-brightgreen)
 ![](https://img.shields.io/badge/The%20Best%20Extension%20Ever%3F-Yes-brightgreen)
 
 
 ## How to install ?
 
-For the moment, the Chrome extension in in "waiting approval", so you need to install it manually: 
+### From Chrome
+
+The extension is available on the [chrome web store](https://chrome.google.com/webstore/detail/elrond-explorer-enhanced/bleekjhpbigkdhhmddepgkkaccgebcme?hl=fr).
+
+### Manual installations
 
 1. Compile the extension
 ```npm run build```
